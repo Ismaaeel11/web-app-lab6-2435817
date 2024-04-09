@@ -47,6 +47,7 @@ function addCar(newCar) {
         });
 }
 
+const carForm = document.getElementById('carForm');
 carForm.addEventListener('submit', event => {
     event.preventDefault();
     const make = document.getElementById('make').value;
